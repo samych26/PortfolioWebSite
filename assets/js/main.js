@@ -81,8 +81,9 @@ document.addEventListener('DOMContentLoaded', () => {
     }
   });
 
-
-
-
-
+  window.addEventListener('load', function() {
+    setTimeout(function() {
+      document.body.classList.add('loaded');
+    }, 0); // Attendre 3 secondes pour que l'animation de la ligne et de la séparation soit terminée
+  });
   
