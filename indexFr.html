@@ -13,32 +13,30 @@
   </head>
   
   <body>
-    <div id="loader">
-      <div class="line"></div>
-    </div>
+    
     <!--====HEADER====-->
     <header class="header" id="header">
       <nav class="nav container">
         <div class="nav__menu" id="nav-menu">
           <ul class="nav__list">
             <li>
-              <a href="#home" class="nav__link active-link"> Hello</a>
+              <a href="#home" class="nav__link active-link">Bonjour</a>
             </li>
 
             <li>
-              <a href="#resume" class="nav__link">Resume</a>
+              <a href="#resume" class="nav__link">Cv</a>
             </li>
 
             <li>
-              <a href="#skils" class="nav__link">skills</a>
+              <a href="#skils" class="nav__link">Compétences</a>
             </li>
 
             <li>
-              <a href="#work" class="nav__link">work</a>
+              <a href="#work" class="nav__link">Travail</a>
             </li>
 
             <li>
-              <a href="#contact" class="nav__link">contact</a>
+              <a href="#contact" class="nav__link">Contact</a>
             </li>
             <label class="switch">
               <input class="cb" type="checkbox" />
@@ -50,28 +48,28 @@
             <script>
               document.addEventListener('DOMContentLoaded', function() {
                 const checkbox = document.querySelector('.cb');
-                checkbox.checked = false; // Assurez-vous que le toggle est sur "En" pour la version anglaise
+                checkbox.checked = true; // Assurez-vous que le toggle est sur "Fr" pour la version française
                 checkbox.addEventListener('change', function() {
                   if (this.checked) {
                     window.location.href = 'indexFr.html';
                   } else {
-                    window.location.href = 'index.html';
+                    window.location.href = 'indexEn.html';
                   }
                 });
               });
             </script>
             </label>
           </ul>
-
           <div class="nav__close" id="nav-close">
             <i class="ri-close-line"></i>
+           
           </div>
         </div>
-
         <div class="nav__toggle" id="nav-toggle">
           <i class="ri-menu-line"></i>
         </div>
       </nav>
+      
     </header>
     <!--====MAIN====-->
     <main class="main">
@@ -81,15 +79,15 @@
           <img src="assets/img/profile.jpg" class="home__img" alt="" />
           <div class="home__data">
             <h1 class="home__name">Samy CHERFA_</h1>
-            <p class="home__work">Computer Science undergraduate student</p>
+            <p class="home__work">Étudiant en informatique</p>
             <dl class="home__list">
-              <dt>AGE:</dt>
+              <dt>ÂGE :</dt>
               <dd>19</dd>
-              <dt>PHONE:</dt>
+              <dt>TÉLÉPHONE :</dt>
               <dd>+213 791306532</dd>
               <dt>Email:</dt>
               <dd>samycherfa34@gmail.com</dd>
-              <dt>ADDRESS:</dt>
+              <dt>ADRESSE :</dt>
               <dd>Algerie, Bejaia, 06000</dd>
             </dl>
             <div class="home__socials">
@@ -115,13 +113,13 @@
       <!--====HELLO====-->
 
       <section class="hello section container">
-        <h2 class="section__titel">Hi_</h2>
+        <h2 class="section__titel">Bonjour_</h2>
 
         <p class="hello__details text-lg">
-         ---I am a third year undergraduate student in computer science at the University of Béjaïa, in Algeria. Passionate about technology and eager to take on new challenges. I am a quick learner, adaptable and thrive in collaborative environments. My problem-solving skills, creativity and determination allow me to think innovatively and approach tasks with original solutions. I am also committed to constant improvement, which allows me to meet any challenges that come my way.
+          Je suis un étudiant en troisième année de licence en informatique à l'Université de Béjaïa, en Algérie. Passionné par la technologie et désireux de relever de nouveaux défis. Je suis un apprenti rapide, adaptable et je m'épanouis dans les environnements collaboratifs. Mes compétences en résolution de problèmes, ma créativité et ma détermination me permettent de penser de manière innovante et d'aborder les tâches avec des solutions originales. Je suis également déterminé à m'améliorer constamment, ce qui me permet de relever tous les défis qui se présentent à moi.
         </p>
         <a href="assets/img/Cv.pdf" class="button button--flex text-sm">
-          <i class="ri-download-2-fill"></i>Dowload CV</a
+          <i class="ri-download-2-fill"></i>Télécharger le CV</a
         >
       </section>
 
@@ -137,54 +135,54 @@
 
       <div class="resume__item">
         <h3 class="resume__subtitle text-sm">
-          Abderrahmane Mira University
+          Université Abderrahmane Mira
         </h3>
-        <p class="resume__data text-sm">In progress</p>
-        <p class="resume__description text-lg">3rd Year License</p>
+        <p class="resume__data text-sm">En cours</p>
+        <p class="resume__description text-lg">3ème année de licence</p>
       </div>
 
       <div class="resume__item">
         <h3 class="resume__subtitle text-sm">
-          Abderrahmane Mira University
+          Université Abderrahmane Mira
         </h3>
         <p class="resume__data text-sm">2023- 2024</p>
-        <p class="resume__description text-lg">2nd Year License</p>
+        <p class="resume__description text-lg">2ème année de licence</p>
       </div>
 
       <div class="resume__item">
         <h3 class="resume__subtitle text-sm">
-          Abderrahmane Mira University
+          Université Abderrahmane Mira
         </h3>
         <p class="resume__data text-sm">2022 - 2023</p>
-        <p class="resume__description text-lg">1st year license</p>
+        <p class="resume__description text-lg">1ère année de licence</p>
       </div>
 
       <div class="resume__item">
-        <h3 class="resume__subtitle text-sm">El Hammadia High School</h3>
+        <h3 class="resume__subtitle text-sm">Lycée El Hammadia</h3>
         <p class="resume__data text-sm">2021 - 2022</p>
         <p class="resume__description text-lg">Baccalauréat</p>
       </div>
     </div>
 
     <div class="resume__data">
-      <h3 class="resume__title text-sm">TRAINING AND EXPERIENCES</h3>
+      <h3 class="resume__title text-sm">FORMATIONS ET EXPÉRIENCES</h3>
 
       <div class="resume__item">
-        <h3 class="resume__subtitle text-sm">TUSNA School</h3>
+        <h3 class="resume__subtitle text-sm">École TUSNA</h3>
         <p class="resume__data text-sm">06/2023 - 09/2023</p>
-        <p class="resume__description text-lg">Training in object-oriented programming in JAVA</p>
+        <p class="resume__description text-lg">Formation en programmation orientée objet en JAVA</p>
       </div>
 
       <div class="resume__item">
         <h3 class="resume__subtitle text-sm">MOBILIS ATM</h3>
         <p class="resume__data text-sm">14/07/2024 - 31/08/2024</p>
-        <p class="resume__description text-lg">Part-time facilitator</p>
+        <p class="resume__description text-lg">Animateur à temps partiel</p>
       </div>
 
       <div class="resume__item">
         <h3 class="resume__subtitle text-sm">SARL NHOLD</h3>
         <p class="resume__data text-sm">03/07/2023 - 04/08/2023</p>
-        <p class="resume__description text-lg">Discovery course</p>
+        <p class="resume__description text-lg">Stage de découverte</p>
       </div>
     </div>
   </div>
@@ -192,7 +190,7 @@
 
       <!--====SKILS====-->
       <section class="skils section container" id="skils">
-        <h2 class="section__titel">Skills_</h2>
+        <h2 class="section__titel">Compétences_</h2>
         <div class="skils__container grid">
           <div class="skils_item">
             <div class="icon__box">
@@ -203,7 +201,7 @@
             </div>
             <h3 class="skils__title text-lg">HTML</h3>
             <p class="text-lg">
-              My solid command of HTML allows me to effectively structure web content. Through rigorous use of tags and attributes, I create web pages that are semantic, accessible and easy to maintain.
+              Ma solide maîtrise de l'HTML me permet de structurer efficacement du contenu web. Grâce à une utilisation rigoureuse des balises et des attributs, je crée des pages web sémantiques, accessibles et faciles à maintenir.
             </p>
           </div>
 
@@ -216,8 +214,7 @@
             </div>
             <h3 class="skils__title text-lg">CSS</h3>
             <p class="text-lg">
-              Using my CSS skills, I am able to create custom, responsive styles to fit any screen. I use the latest techniques to optimize performance and ensure a smooth user experience across all devices.
-             
+              Grâce à mes compétences en CSS, je suis capable de créer des styles personnalisés et réactifs pour s'adapter à tous les écrans. J'utilise les dernières techniques pour optimiser les performances et garantir une expérience utilisateur fluide sur tous les appareils.
             </p>
           </div>
 
@@ -234,7 +231,8 @@
             </div>
             <h3 class="skils__title text-lg">JAVA SCRIPT</h3>
             <p class="text-lg">
-              Using JavaScript, I animate web pages and create user experiences rich in interactions. I master DOM manipulation and event management to provide dynamic and intuitive interfaces.
+              Grâce à JavaScript, j'anime les pages web et crée des expériences utilisateur riches en interactions. Je maîtrise la manipulation du DOM et la gestion des événements pour offrir des interfaces dynamiques et intuitives.
+            </p>
             </p>
           </div>
 
@@ -251,7 +249,7 @@
             </div>
             <h3 class="skils__title text-lg">PHP</h3>
             <p class="text-lg">
-              My expertise in PHP allows me to develop complete web applications, from front-end to back-end. I am proficient in managing MySQL databases to store and retrieve information securely.
+              Mon expertise en PHP me permet de développer des applications web complètes, du front-end au back-end. Je maîtrise la gestion de bases de données MySQL pour stocker et récupérer des informations de manière sécurisée.
             </p>
           </div>
 
@@ -268,7 +266,7 @@
             </div>
             <h3 class="skils__title text-lg">My SQL</h3>
             <p class="text-lg">
-              My mastery of MySQL allows me to design robust and optimized data models. I have strong experience in normalizing data, creating indexes and writing complex queries to meet specific needs.
+              Ma maîtrise de MySQL me permet de concevoir des modèles de données robustes et optimisés. J'ai une solide expérience dans la normalisation des données, la création d'index et l'écriture de requêtes complexes pour répondre à des besoins spécifiques.
             </p>
           </div>
 
@@ -285,7 +283,7 @@
             </div>
             <h3 class="skils__title text-lg">JAVA</h3>
             <p class="text-lg">
-              I gained solid experience in object-oriented programming with Java, mastering the concepts of inheritance, encapsulation and polymorphism. I'm also familiar with collections, threads and regular expressions.
+              J'ai acquis une solide expérience en programmation orientée objet avec Java, maîtrisant les concepts d'héritage, d'encapsulation et de polymorphisme. Je suis également familier avec les collections, les threads et les expressions régulières.
             </p>
           </div>
 
@@ -298,7 +296,7 @@
             </div>
             <h3 class="skils__title text-lg">C</h3>
             <p class="text-lg">
-              C taught me to think in a structured way and to write clear and maintainable code, following good programming practices.
+              Le C m'a appris à penser de manière structurée et à écrire du code clair et maintenable, en suivant les bonnes pratiques de programmation.
             </p>
           </div>
 
@@ -313,9 +311,9 @@
                 <span class="dot"></span>
               </div>
             </div>
-            <h3 class="skils__title text-lg">Networks</h3>
+            <h3 class="skils__title text-lg">Réseaux</h3>
             <p class="text-lg">
-              I gained hands-on experience configuring and managing networks using tools such as Cisco Packet Tracer and Wireshark. This allowed me to simulate real-world scenarios and analyze network traffic in detail.
+              J'ai acquis une expérience pratique dans la configuration et la gestion de réseaux en utilisant des outils tels que Cisco Packet Tracer et Wireshark. Cela m'a permis de simuler des scénarios réels et d'analyser le trafic réseau en détail.
             </p>
           </div>
 
@@ -330,12 +328,10 @@
                 <span class="dot"></span>
               </div>
             </div>
-            <h3 class="skils__title text-lg">Assembler language</h3>
+            <h3 class="skils__title text-lg">Langage Assembleur</h3>
             <p class="text-lg">
-              My experience with assembly language has given me a deeper
-              understanding of computer architecture and low-level programming.
-              I've learned to write efficient, optimized code that directly
-              interacts with hardware components, such as registers and memory.
+              Mon expérience avec le langage assembleur m'a donné une compréhension plus approfondie de l'architecture des ordinateurs et de la programmation de bas niveau. J'ai appris à écrire du code efficace et optimisé qui interagit directement avec les composants matériels, tels que les registres et la mémoire.
+
             </p>
           </div>
 
@@ -352,7 +348,7 @@
             </div>
             <h3 class="skils__title text-lg">FIGMA</h3>
             <p class="text-lg">
-              I used Figma to design user interfaces for different platforms (web, mobile) while respecting the design guidelines specific to each platform.
+              J'ai utilisé Figma pour concevoir des interfaces utilisateur pour différentes plateformes (web, mobile) en respectant les guidelines de design spécifiques à chaque plateforme.
             </p>
           </div>
 
@@ -365,10 +361,8 @@
             </div>
             <h3 class="skils__title text-lg">Canva</h3>
             <p class="text-lg">
-              Canva has allowed me to create visually appealing graphics and
-              designs for various projects. I've used Canva to design social
-              media posts, presentations, and marketing materials, enhancing my
-              ability to communicate ideas effectively through visual content.
+              Canva m'a permis de créer des graphiques et des conceptions visuellement attrayants pour divers projets. J'ai utilisé Canva pour concevoir des publications sur les réseaux sociaux, des présentations et des supports marketing, améliorant ainsi ma capacité à communiquer des idées efficacement par le biais de contenu visuel.
+
             </p>
           </div>
 
@@ -381,7 +375,7 @@
             </div>
             <h3 class="skils__title text-lg">Photoshop</h3>
             <p class="text-lg">
-              Thanks to Photoshop, I was able to develop an aesthetic sensitivity and an ability to adapt my graphic style to different types of projects and audiences.
+              Grâce à Photoshop, j'ai pu développer une sensibilité esthétique et une capacité à adapter mon style graphique à différents types de projets et de publics.
             </p>
           </div>
         </div>
@@ -391,7 +385,7 @@
 
       <!--====WORK====-->
       <section class="section container" id="work">
-        <h2 class="section__titel">Works_</h2>
+        <h2 class="section__titel">Travaux_</h2>
 
         <div class="projects__container grid">
           <div class="project__item grid">
@@ -400,10 +394,10 @@
             <div class="project__data">
               <h3 class="project__title text-lg">ECHOES</h3>
               <p class="project__description text-lg">
-                ECHOES is an innovative online event that fuses the intrigue of
-                an alternative treasure hunt (ARG) with the fascination of
-                computing. Designed to stimulate ingenuity and intellectual
-                exploration, Echoes takes participants on a journey
+                ECHOES est un événement en ligne innovant qui fusionne l'intrigue de
+                une chasse au trésor alternative (ARG) avec la fascination de
+                informatique. Conçu pour stimuler l'ingéniosité et l'intelligence
+                exploration, Echoes emmène les participants dans un voyage
               </p>
               <div class="btn-container">
                 <button
@@ -423,7 +417,7 @@
                       d="M12,2.2467A10.00042,10.00042,0,0,0,8.83752,21.73419c.5.08752.6875-.21247.6875-.475,0-.23749-.01251-1.025-.01251-1.86249C7,19.85919,6.35,18.78423,6.15,18.22173A3.636,3.636,0,0,0,5.125,16.8092c-.35-.1875-.85-.65-.01251-.66248A2.00117,2.00117,0,0,1,6.65,17.17169a2.13742,2.13742,0,0,0,2.91248.825A2.10376,2.10376,0,0,1,10.2,16.65923c-2.225-.25-4.55-1.11254-4.55-4.9375a3.89187,3.89187,0,0,1,1.025-2.6875,3.59373,3.59373,0,0,1,.1-2.65s.83747-.26251,2.75,1.025a9.42747,9.42747,0,0,1,5,0c1.91248-1.3,2.75-1.025,2.75-1.025a3.59323,3.59323,0,0,1,.1,2.65,3.869,3.869,0,0,1,1.025,2.6875c0,3.83747-2.33752,4.6875-4.5625,4.9375a2.36814,2.36814,0,0,1,.675,1.85c0,1.33752-.01251,2.41248-.01251,2.75,0,.26251.1875.575.6875.475A10.0053,10.0053,0,0,0,12,2.2467Z"
                     ></path>
                   </svg>
-                  view on github
+                  voir sur github
                 </button>
               </div>
             </div>
@@ -432,12 +426,12 @@
           <div class="project__item grid">
             <img src="assets/img/Pong-game.ico" class="project__img" />
             <div class="project__data">
-              <h3 class="project__title text-lg">Pong game</h3>
+              <h3 class="project__title text-lg"> Jeu Pong</h3>
               <p class="project__description text-lg">
-                My first project is a Pong game that I developed in C with the
-                Raylib library. This project allowed me to put my programming
-                skills into practice, to understand the basics of graphics
-                management and user interaction.
+                Mon premier projet est un jeu Pong que j'ai développé en C avec le
+                Bibliothèque Raylib. Ce projet m'a permis de mettre ma programmation
+                compétences en pratique, pour comprendre les bases du graphisme
+                gestion et interaction avec les utilisateurs.
               </p>
               <div class="btn-container">
                 <button
@@ -457,7 +451,7 @@
                       d="M12,2.2467A10.00042,10.00042,0,0,0,8.83752,21.73419c.5.08752.6875-.21247.6875-.475,0-.23749-.01251-1.025-.01251-1.86249C7,19.85919,6.35,18.78423,6.15,18.22173A3.636,3.636,0,0,0,5.125,16.8092c-.35-.1875-.85-.65-.01251-.66248A2.00117,2.00117,0,0,1,6.65,17.17169a2.13742,2.13742,0,0,0,2.91248.825A2.10376,2.10376,0,0,1,10.2,16.65923c-2.225-.25-4.55-1.11254-4.55-4.9375a3.89187,3.89187,0,0,1,1.025-2.6875,3.59373,3.59373,0,0,1,.1-2.65s.83747-.26251,2.75,1.025a9.42747,9.42747,0,0,1,5,0c1.91248-1.3,2.75-1.025,2.75-1.025a3.59323,3.59323,0,0,1,.1,2.65,3.869,3.869,0,0,1,1.025,2.6875c0,3.83747-2.33752,4.6875-4.5625,4.9375a2.36814,2.36814,0,0,1,.675,1.85c0,1.33752-.01251,2.41248-.01251,2.75,0,.26251.1875.575.6875.475A10.0053,10.0053,0,0,0,12,2.2467Z"
                     ></path>
                   </svg>
-                  view on github
+                  voir sur github
                 </button>
               </div>
             </div>
@@ -468,11 +462,11 @@
       <!--====CONTACT====-->
       <section class="contact section" id="contact">
         <div class="contact__content container">
-          <h2 class="section__title">Get in touch_</h2>
+          <h2 class="section__title">Entrer en contact_</h2>
           <div class="contact__container grid">
             <div class="contact__info">
               <dl class="contact__list">
-                <dt>Phone:</dt>
+                <dt>TÉLÉPHONE :</dt>
                 <dd>+213 791306532</dd>
 
                 <dt>Email:</dt>
@@ -481,24 +475,24 @@
             </div>
 
             <div class="contact__form">
-              <p class="contact__form-title">Or just write me a lettre here_</p>
+              <p class="contact__form-title">Ou écris-moi simplement une lettre ici_</p>
 
               <form id="contact-form">
-                <label for="contact-name">Name</label>
-                <input type="text" id="contact-name" name="name" placeholder="Your name" class="contact__input" required>
+                <label for="contact-name">Nom :</label>
+                <input type="text" id="contact-name" name="name" placeholder="Votre nom" class="contact__input" required>
               
-                <label for="contact-email">Email</label>
-                <input type="email" id="contact-email" name="email" placeholder="Your email" class="contact__input" required>
+                <label for="contact-email">Email :</label>
+                <input type="email" id="contact-email" name="email" placeholder="Votre Email" class="contact__input" required>
               
-                <label for="message">Message</label>
-                <textarea id="message" name="message" placeholder="Write your message here..." class="contact__input textarea" cols="30" rows="10" required></textarea>
+                <label for="message">Message :</label>
+                <textarea id="message" name="message" placeholder="Écrivez votre message ici..." class="contact__input textarea" cols="30" rows="10" required></textarea>
               
                 <div id="contact-message"></div>
               
-                <button type="submit" class="contact__button">Send Message</button>
+                <button type="submit" class="contact__button">Envoyer un message</button>
 
                 <p class="footer__copy">
-                  &copy; 2024 Samy CHERFA. All right reserved
+                  &copy; 2024 Samy CHERFA. Tous droits réservés
                 </p>
               </form>
               

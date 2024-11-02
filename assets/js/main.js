@@ -21,12 +21,12 @@ const sendEmail = (e) => {
         )
         .then(() => {
             contactMessage.classList.add('color-light');
-            contactMessage.textContent = 'Message sent successfully';
+            contactMessage.textContent = 'Message envoyé avec succès';
             setTimeout(() => {
                 contactMessage.textContent = '';
             }, 5000);
         }, (error) => {
-            alert('Something went wrong, please try again', error);
+            alert('Quelque chose sest mal passé, veuillez réessayer', error);
         });
     }
 }
@@ -86,4 +86,7 @@ document.addEventListener('DOMContentLoaded', () => {
       document.body.classList.add('loaded');
     }, 0); // Attendre 3 secondes pour que l'animation de la ligne et de la séparation soit terminée
   });
+
+
+ 
   
