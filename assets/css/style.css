@@ -726,11 +726,13 @@ input {
 }
 
 
-#contact-form {
-  display: flex;
-  flex-direction: column;
-  width: 300px;
 
+.contact__form{
+  border: 2px solid white;
+  padding: 3.25rem;
+  backdrop-filter: blur(50px);
+  border-radius: 20px;
+  box-shadow: #8c8a8a 0 0 10px;
 }
 
 input, textarea {
